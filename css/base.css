@@ -1,27 +1,27 @@
-/*清除元素默认的内外边距  */
+/* Clear the default inner and outer margins of the element */
 * {
   margin: 0;
   padding: 0
 }
-/*让所有斜体 不倾斜*/
+/* Make all italics not italic */
 em,
 i {
   font-style: normal;
 }
-/*去掉列表前面的小点*/
+/* remove the small dot at the front of the list */
 li {
   list-style: none;
 }
-/*图片没有边框   去掉图片底侧的空白缝隙*/
+/*The picture has no border, remove the blank gap on the bottom side of the picture*/
 img {
   border: 0;  /*ie6*/
   vertical-align: middle;
 }
-/*让button 按钮 变成小手*/
+/*Let the button button become a small hand*/
 button {
   cursor: pointer;
 }
-/*取消链接的下划线*/
+/*Unlink underscore*/
 a {
   color: #666;
   text-decoration: none;
@@ -34,7 +34,7 @@ a:hover {
 button,
 input {
   font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
-  /*取消轮廓线 蓝色的*/
+ /* cancel the contour line blue */
   outline: none;
 }
 
@@ -60,7 +60,7 @@ body {
 .none {
   display: none;
 }
-/*清除浮动*/
+/* clear floats */
 .clearfix:after {
   visibility: hidden;
   clear: both;
