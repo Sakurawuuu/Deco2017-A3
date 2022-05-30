@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- set the user zoom ratio -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=1.0">
+  <!-- set the icon -->
+  <link rel="shortcut icon" href="./img/home/bookmark.png" type="image/x-icon">
+  <title>DECO 2017</title>
+  <!-- the introduction of CSS -->
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/calendar.css">
+</head>
+
+<body>
+  <!-- background -->
+  <div class="bg">
+    <!-- container -->
+    <div class="container shadow">
+      <!-- mobile-mark -->
+      <div class="mobile-mark mark">
+        <img src="./img/home/bookmark.png" alt="">
+        Studbud
+      </div>
+      <!-- nav -->
+      <div class="nav">
+        <div class="mark">
+          <img src="./img/home/bookmark.png" alt="">
+          Studbud
+        </div>
+        <a href="./index.html">
+          <div class="nav-item">
+            <div class="image-box">
+              <img src="./img/home/home.png" alt="">
+            </div>
+            <span>Home</span>
+          </div>
+        </a>
+        <a href="./calendar.html">
+          <div class="nav-item current">
+            <div class="image-box">
+              <img src="./img/home/calendar.png" alt="">
+            </div>
+            <span>Calendar</span>
+          </div>
+        </a>
+        <a href="./assignments.html">
+          <div class="nav-item">
+            <div class="image-box">
+              <img src="./img/home/assignments.png" alt="">
+            </div>
+            <span>Assignments</span>
+          </div>
+        </a>
+        <a href="./library.html">
+          <div class="nav-item">
+            <div class="image-box">
+              <img src="./img/home/library.png" alt="">
+            </div>
+            <span>Library</span>
+          </div>
+        </a>
+        <div class="nav-item">
+          <div class="image-box">
+            <img src="./img/home/settings.png" alt="">
+          </div>
+          <span>Settings</span>
+        </div>
+        <a href="./timer.html">
+          <div class="nav-item">
+            <div class="image-box">
+              <img src="./img/home/timer.png" alt="">
+            </div>
+            <span>Timer</span>
+          </div>
+        </a>
+        <div class="nav-footer">
+          <img src="./img/calendar/Hand coding-amico.png" alt="">
+        </div>
+      </div>
+      <!-- header -->
+      <div class="header">
+        <div class="menu" id="menu">
+          <img src="./img/home/menu.png" alt="">
+          <div class="menu-list" id="menu-list">
+            <a href="./index.html">
+              <div class="nav-item">
+                <div class="image-box">
+                  <img src="./img/home/home.png" alt="">
+                </div>
+                <span>Home</span>
+              </div>
+            </a>
+            <a href="./calendar.html">
+              <div class="nav-item current">
+                <div class="image-box">
+                  <img src="./img/home/calendar.png" alt="">
+                </div>
+                <span>Calendar</span>
+              </div>
+            </a>
+            <a href="./assignments.html">
+              <div class="nav-item">
+                <div class="image-box">
+                  <img src="./img/home/assignments.png" alt="">
+                </div>
+                <span>Assignments</span>
+              </div>
+            </a>
+            <a href="./library.html">
+              <div class="nav-item">
+                <div class="image-box">
+                  <img src="./img/home/library.png" alt="">
+                </div>
+                <span>Library</span>
+              </div>
+            </a>
+            <div class="nav-item">
+              <div class="image-box">
+                <img src="./img/home/settings.png" alt="">
+              </div>
+              <span>Settings</span>
+            </div>
+            <a href="./timer.html">
+              <div class="nav-item">
+                <div class="image-box">
+                  <img src="./img/home/timer.png" alt="">
+                </div>
+                <span>Timer</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- title -->
+        <h1 class="title">
+          Calendar
+        </h1>
+        <!-- add task btn -->
+        <div class="btn open-modal">
+          <img src="./img/calendar/add.png" alt="">
+        </div>
+      </div>
+      <!-- main -->
+      <div class="main">
+        <!-- main-title -->
+        <h1 class="title">My Calendar</h1>
+        <!-- main-content -->
+        <div class="main-content">
+          <img src="./img/calendar/Headache-amico.png" alt="">
+          <!-- small screen form  -->
+          <div class="min-cal">
+            <div class="switch-box">
+              <div class="switch">
+                <div>
+                  <img src="./img/calendar/left.png" alt="">
+                </div>
+                <div class="switch-r">
+                  <img src="./img/calendar/right.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="date">April, 2022</div>
+            <div class="cal-table-box">
+              <div class="cal-title">April</div>
+              <table class="cal-table shadow">
+                <tr>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                  <td>
+                    <span class="bg-y">
+                      2
+                    </span>
+                  </td>
+                  <td class="current-y">
+                    <span class="bg-y">
+                      3
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td class="current-p">
+                    <span class="bg-p">
+                      6
+                    </span>
+                  </td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td class="current-p">
+                    <span class="bg-p">
+                      21
+                    </span>
+                  </td>
+                  <td>
+                    <span class="current">
+                      12
+                    </span>
+                  </td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td class="current-y">
+                    <span class="bg-y">
+                      16
+                    </span>
+                  </td>
+                  <td class="current-g">17</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td class="current-g">
+                    <span class="bg-g">
+                      21
+                    </span>
+                  </td>
+                  <td>22</td>
+                  <td class="current-g">23</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>
+                    <span class="bg-p">
+                      26
+                    </span>
+                  </td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            <div class="add-task open-modal">
+              <div class="btn">
+                <img src="./img/calendar/add.png" alt="">
+              </div>
+              Add new task
+            </div>
+          </div>
+        </div>
+        <!-- Large screen form -->
+        <table class="cal" cellspacing="0">
+          <!-- th 表头 -->
+          <tr>
+            <th>Time</th>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Tri</th>
+            <th>Sat</th>
+          </tr>
+          <!-- 1~3 -->
+          <tr>
+            <td></td>
+            <td>
+              <div>
+                <div class="text">
+                  March 27
+                </div>
+                <div class="tag info-b">
+                  <div class="info">
+                    <p>Design Postal</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> Due 9:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  March 28
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  March 29
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  March 30
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  March 31
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  1
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  2
+                </div>
+                <div class="tag info-y">
+                  <div class="info">
+                    <p>Speech</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> 10min</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+
+          </tr>
+          <!-- 3~9 -->
+          <tr>
+            <td>
+              <div>
+                <div class="text">
+                  09:00 AM
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  3
+                </div>
+                <div class="tag info-b">
+                  <div class="info">
+                    <p>Design Postal</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> Due 9:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  4
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  5
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  6
+                </div>
+                <div class="tag info-p">
+                  <div class="info">
+                    <p>Essay-1000</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> Due 10:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  7
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  8
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  9
+                </div>
+              </div>
+            </td>
+          </tr>
+          <!-- 10~16 -->
+          <tr>
+            <td>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  10
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  11
+                </div>
+                <div class="tag info-p">
+                  <div class="info">
+                    <p>Report-2000</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> Due 9:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  12
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  13
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  14
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  15
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  16
+                </div>
+                <div class="tag info-y">
+                  <div class="info">
+                    <p>Speech</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> 10 min</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <!-- 17~23 -->
+          <tr>
+            <td>
+              <div>
+                <div class="text">
+                  10:00 AM
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  17
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  18
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  19
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  20
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  21
+                </div>
+                <div class="tag info-g">
+                  <div class="info">
+                    <p>Online quiz</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> 30 min</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  22
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  23
+                </div>
+              </div>
+            </td>
+          </tr>
+          <!-- 24~30 -->
+          <tr>
+            <td>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  24
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  25
+                </div>
+                <div class="tag info-b">
+                  <div class="info">
+                    <p>Research pian</p>
+                    <p><img src="./img/calendar/clock.png" alt=""> Due 8:00pm</p>
+                  </div>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  26
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  27
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  28
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  29
+                </div>
+              </div>
+            </td>
+            <td>
+              <div>
+                <div class="text">
+                  30
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div class="s-cal">
+          <div class="tag info-b">
+            <div class="info">
+              <p>Design Postal</p>
+              <p><img src="./img/calendar/clock.png" alt=""> Due 9:00pm</p>
+            </div>
+          </div>
+          <div class="tag info-p">
+            <div class="info">
+              <p>Report-2000</p>
+              <p><img src="./img/calendar/clock.png" alt=""> Due 10:00am</p>
+            </div>
+          </div>
+          <div class="tag info-y">
+            <div class="info">
+              <p>Speech</p>
+              <p><img src="./img/calendar/clock.png" alt=""> Due 10 min</p>
+            </div>
+          </div>
+          <div class="tag info-g">
+            <div class="info">
+              <p>Speech</p>
+              <p><img src="./img/calendar/clock.png" alt=""> Due 10 min</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal -->
+  <div class="modal" id="modal">
+    <div class="m-header">
+      <span class="close-modal">Cancel</span>
+      <h2>Add new Task</h2>
+      <span class="close-modal">Done</span>
+    </div>
+    <div class="m-input">
+      <input type="text" value="Title...">
+    </div>
+    <div class="m-input">
+      <input type="text" value="Date">
+    </div>
+    <div class="m-text">
+      <textarea name="" id="" cols="30" rows="10" value="">Description</textarea>
+    </div>
+  </div>
+  <div class="modal-bg" id="modal-bg"></div>
+  <!-- importing JS files -->
+  <script src="./js/menu.js"></script>
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>
