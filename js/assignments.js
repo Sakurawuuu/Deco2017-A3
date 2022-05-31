@@ -1,21 +1,21 @@
-// 获取元素
+// get the element
 const mainContent = document.querySelector(".main-content");
 
-// pc 端拖拽
+// drag and drop on pc
 const drag = () => {
   const items = document.querySelectorAll(".item");
 
   let current;
 
   for (let i = 0; i < items.length; i++) {
-    // 拖拽释放事件
+    // drag release event
     items[i].ondrop = (e) => {
       items[i].classList.remove("p-shadow");
       items[current] && items[current].classList.remove("p-shadow");
 
       if (current === i) return;
 
-      // 前面元素移动到后方且两个元素相邻 则交换元素
+      // The front element is moved to the back and the two elements are adjacent, then the elements are swapped
       if (current < i && current === i - 1) {
         const temp = items[i].innerHTML;
         items[i].innerHTML = items[current].innerHTML;
@@ -29,20 +29,20 @@ const drag = () => {
       mainContent.insertBefore(items[current], items[i]);
       drag();
     };
-    // 拖拽开始事件
+    // drag start event
     items[i].ondragstart = (e) => {
       current = i;
-      // 组织事件冒泡
+      // organize event bubbling
       e.stopPropagation();
     };
-    // 拖拽停止事件
+    // drag stop event
     items[i].ondragover = (e) => {
       for (let i = 0; i < items.length; i++) {
         items[i].classList.remove("p-shadow");
       }
 
       items[i].classList.add("p-shadow");
-      // 组织默认事件
+      // organize default events
       e.preventDefault();
     };
   }
