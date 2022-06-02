@@ -1,0 +1,192 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-timer {
+  background-color: rgb(212,189,227);
+  border-radius: 30px;
+}
+
+.timer-show {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 20px;
+}
+
+.timer-show div {
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.t-timer {
+  width: 25%;
+}
+
+.timer-box {
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  background-color: rgb(158,136,183);
+}
+
+.colon {
+  line-height: 150px;
+  margin: 0 10px;
+}
+
+.unit {
+  font-size: 18px;
+  color: rgb(9,29,148);
+}
+
+.btn-box {
+  padding: 0  0 40px;
+}
+
+.btn-box div:first-child {
+  display: flex;
+  justify-content: center;
+}
+.btn-box div:last-child {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-box .t-btn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background: rgb(158,136,183);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.main-task {
+  padding: 20px;
+  background-color: rgb(213,190,228);
+  margin: 20px 0;
+  border-radius: 30px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  align-items: center;
+  color: rgb(9, 23, 142);
+}
+
+.add-task {
+  color: rgb(18, 26, 143);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  width: 40px;
+  height: 20px;
+  background-color: rgb(158,136,183);
+  border-radius: 20px;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+
+.task-table {
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+}
+.task-table td {
+  padding: 20px 40px 0 0;
+}
+
+.modal .m-header {
+  justify-content: center;
+  border: none;
+  padding-bottom: 0;
+}
+
+.timer-input {
+  display: flex;
+  color: rgb(8,23,136);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  padding-left: 40px;
+}
+
+.timer-input div {
+  width: 77%;
+  margin-left: 5px;
+  border-bottom: 3px solid rgb(8,23,136);
+  box-sizing: border-box;
+}
+
+.timer-input input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: transparent;
+}
+
+.hr-min div {
+    width: 25%;
+    margin: 0 10px;
+    border-bottom: 3px solid rgb(8,23,136);
+}
+.m-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  color: rgb(8,23,136);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 950px) {
+  .timer-input {
+    font-size: 15px;
+  }
+  .m-footer {
+    font-size: 15px;
+  }
+  .timer-box {
+    height: 180px;
+    line-height: 180px;
+  } 
+  .m-hide {
+    display: none;
+  }
+  .task-table td {
+    width: 45%;
+  }
+  .task-text {
+    display: none;
+  }
+
+  .btn {
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .timer-box {
+    height: 120px;
+    line-height: 120px;
+  }
+}
